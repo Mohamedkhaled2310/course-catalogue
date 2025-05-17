@@ -11,7 +11,6 @@ A responsive and interactive course catalogue web app built using react, vite, a
 
 ## Demo
 
-![Course Catalogue Demo](./1.png)
 ![Course Catalogue Demo](./2.png)
 ![Course Catalogue Demo](./3.png)
 ![Course Catalogue Demo](./4.png)
