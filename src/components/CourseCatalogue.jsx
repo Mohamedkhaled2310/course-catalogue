@@ -5,7 +5,7 @@ const CourseCatalogue = ({ addToCart, courses }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [instructorFilter, setInstructorFilter] = useState("all");
   const [priceRange, setPriceRange] = useState([0, 1000]);
-  const coursesPerPage = 4;
+  const coursesPerPage = 3;
 
 
   const instructors = ["all", ...new Set(courses.map(course => course.instructor))];
@@ -110,7 +110,7 @@ const CourseCatalogue = ({ addToCart, courses }) => {
 
       {currentCourses.length > 0 ? (
         <>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 gap-6">
             {currentCourses.map((course) => (
               <div 
                 key={course.id} 
