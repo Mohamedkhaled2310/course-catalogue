@@ -24,7 +24,7 @@ A responsive and interactive course catalogue web app built using react, vite, a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mohamedkhaled2310/course-catalogue.git
+   git clone https://github.com/Mohamedkhaled2310/course-catalogue.git
    cd course-catalogue
 
 2. Install dependencies:
